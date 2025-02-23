@@ -1,19 +1,11 @@
 import Button from "react-bootstrap/Button";
+import { Header } from "../../shared/components/Header";
 
 
 export const LandingLayout = () => {
     return (
         <div className="landing-layout">
-
-            <style type="text/scss">
-                {`
-                .btn-primary {
-                    background-color: $primary;
-                    color: $bg-color;
-                }
-            `}
-
-            </style>
+            <Header />
 
             <h1>LandingLayout</h1>
 
@@ -24,6 +16,10 @@ export const LandingLayout = () => {
             </Button>
 
             <Button variant="secondary">
+                Click me!
+            </Button>
+
+            <Button variant="warning">
                 Click me!
             </Button>
 

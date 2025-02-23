@@ -5,8 +5,6 @@ import { App } from './App.tsx'
 
 // Import the global styles
 import './styles.scss'
-// Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 createRoot(document.getElementById('root')!).render(
