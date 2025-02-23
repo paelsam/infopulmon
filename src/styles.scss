@@ -1,80 +1,9 @@
-// Fuente Lato
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-// Variables
-$font-family-base: 'Lato', serif;
-$line-height-base: 1.5;
-$primary: #00A8E8; 
-$secondary: #b7ffff; 
-$body-color: #333333;
-$accent: #00a6e8a3;
-
+@import './shared/styles/font';
+@import './shared/styles/variables';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 #root {
     background-color: $accent;
     color: $body-color;
     height: 100vh;
-}
-
-// Fonts 
-
-.lato-thin {
-    font-family: $font-family-base;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.lato-light {
-    font-family: $font-family-base;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.lato-regular {
-    font-family: $font-family-base;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.lato-bold {
-    font-family: $font-family-base;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.lato-black {
-    font-family: $font-family-base;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.lato-thin-italic {
-    font-family: $font-family-base;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.lato-light-italic {
-    font-family: $font-family-base;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.lato-regular-italic {
-    font-family: $font-family-base;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.lato-bold-italic {
-    font-family: $font-family-base;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.lato-black-italic {
-    font-family: $font-family-base;
-    font-weight: 900;
-    font-style: italic;
 }
